@@ -1,0 +1,8 @@
+login:
+    path: /api/login
+    methods: ['POST']
+    controller: App\Controller\AuthController::getUser
+    defaults: 
+      _format: json
+
+
